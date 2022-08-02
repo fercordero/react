@@ -1,13 +1,24 @@
-import NavBar from './components/NavBar';
+import NavBar from './components/Nav/NavBar';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
 function App() {
+
+  const saludo = {
+    mensaje: "Basado en tu última visita ..."
+};
+
   return (
-    <div>
-      <NavBar/>
-      <img width="200" src="imagenes/logo.png" alt="logo" />
-    
-    </div>
+    <><>
+      <NavBar />
+    </>
+    <>
+      <ItemListContainer saludo={saludo} />
+
+
+    </></>
   );
 }
+
+
 
 export default App;

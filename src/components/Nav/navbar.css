@@ -1,0 +1,22 @@
+
+body {
+  background: rgb(224, 220, 220);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+li:hover {
+  color: rgb(115, 104, 104);
+  opacity: 0.5;
+}
+
+li img {
+  width: 100px;
+  height: 100px;
+} 
